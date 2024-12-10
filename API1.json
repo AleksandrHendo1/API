@@ -1,0 +1,198 @@
+{
+	"id": "8f0adff8-8b39-4247-ba66-5c10143cbbc7",
+	"name": "2-24 Class work",
+	"timestamp": "2024-12-09T18:42:33.026Z",
+	"collection_id": "40078965-5b841a3a-2553-4424-b40d-6215fa89a408",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-12-09T18:42:23.692Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b770003a-6a06-49d2-9e79-cf10e9260fb0",
+			"name": "access_token Сотрудник 1",
+			"url": "https://radio-shop.megaplan.by/api/v3/auth/access_token",
+			"time": 478,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				478
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7f164846-41b0-4ce3-a9fb-5047301ff9fc",
+			"name": "Создать задачу Сотрудник 1",
+			"url": "https://radio-shop.megaplan.by/api/v3/task",
+			"time": 2008,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2008
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8c0b3007-741d-4462-9b11-84888c44a8e7",
+			"name": "Написать описание Сотрудник1",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1011087",
+			"time": 559,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				559
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "488ca7c4-b49c-4354-afa4-ad7356721ce5",
+			"name": "access_token Сотрудник 2",
+			"url": "https://radio-shop.megaplan.by/api/v3/auth/access_token",
+			"time": 249,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				249
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "06310f65-a330-44b7-a9e3-aa7d28802bfc",
+			"name": "Принять задачу Сотрудник 2",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1011088/doAction",
+			"time": 1004,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1004
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "48f3a9fc-f0f2-448f-941a-c4d5d42c4195",
+			"name": "Завершить задачу Сотрудник 2",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1011087/doAction",
+			"time": 352,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				352
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "da76e8e5-80f2-4330-8143-251b37cd7321",
+			"name": "Комментарий Сотрудник 2",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1011087/comments",
+			"time": 772,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				772
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cdff54b6-cd5a-441a-af2d-aaf5142707a1",
+			"name": "Завершить задачу Сотрудник 1",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1011087/doAction",
+			"time": 2509,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2509
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 7931,
+	"collection": {
+		"requests": [
+			{
+				"id": "b770003a-6a06-49d2-9e79-cf10e9260fb0",
+				"method": "POST"
+			},
+			{
+				"id": "7f164846-41b0-4ce3-a9fb-5047301ff9fc",
+				"method": "POST"
+			},
+			{
+				"id": "8c0b3007-741d-4462-9b11-84888c44a8e7",
+				"method": "POST"
+			},
+			{
+				"id": "488ca7c4-b49c-4354-afa4-ad7356721ce5",
+				"method": "POST"
+			},
+			{
+				"id": "06310f65-a330-44b7-a9e3-aa7d28802bfc",
+				"method": "POST"
+			},
+			{
+				"id": "48f3a9fc-f0f2-448f-941a-c4d5d42c4195",
+				"method": "POST"
+			},
+			{
+				"id": "da76e8e5-80f2-4330-8143-251b37cd7321",
+				"method": "POST"
+			},
+			{
+				"id": "cdff54b6-cd5a-441a-af2d-aaf5142707a1",
+				"method": "POST"
+			}
+		]
+	}
+}
